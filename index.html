@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <section class="background">
+                <div class="content-wrapper">
+                    <!-- 左右切換 -->
+                    <div class="container">
+                        <ul class="gallery__items">
+                            <li class="gallery__item">
+                                <div>
+                                    <img class="centered" src="images/bertrand-zuchuat-641.jpg">
+                                </div>
+                            </li>
+                            <li class="gallery__item">
+                                <div>
+                                    <img class="centered" src="images/julien-moreau-83192.jpg">
+                                </div>
+                            </li>
+                            <li class="gallery__item">
+                                <div>
+                                    <img class="centered" src="images/karl-fredrickson-35017.jpg">
+                                </div>
+                            </li>
+                            <li class="gallery__item">
+                                <div>
+                                    <img class="centered" src="images/kevin-young-7002.jpg">
+                                </div>
+                            </li>
+                            <li class="gallery__item">
+                                <div>
+                                    <img class="centered" src="images/neil-thomas-5889.jpg">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="gallery__nav">
+                            <button class="gallery__navIcon gallery__navIcon--prev">
+                                    <span type="angleLeft">
+                                        <svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            <button class="gallery__navIcon gallery__navIcon--next">
+                                <span type="angleRight">
+                                    <svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- 左右切換end -->
+                </div>
+            </section>
+            <section class="background">
+                <div class="content-wrapper">
+                </div>
+            </section>
+            <section class="background">
+                <div class="content-wrapper">
+                </div>
+            </section>
+            <section class="background">
+                <div class="content-wrapper">
+                </div>
+            </section>
+        </div>
+        <ul class="side-nav">
+            <li data-id="0" class="active"></li>
+            <li data-id="1"></li>
+            <li data-id="2"></li>
+            <li data-id="3"></li>
+        </ul>
+    </div>
+
+    <script src="bower_components/jQuery/dist/jquery.min.js"></script>
+    <script src="bower_components/lodash/dist/lodash.min.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/fullpage-scroll.js"></script>
+</body>
+
+</html>
